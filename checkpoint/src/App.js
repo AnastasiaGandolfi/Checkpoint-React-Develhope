@@ -1,8 +1,10 @@
+import { Pokedex } from './Pokedex';
 
-function App() {
+export function App() {
   return (
-    <div></div>
+    <div>
+      <Pokedex />
+    </div>
   );
 }
 
-export default App;
